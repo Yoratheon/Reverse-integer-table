@@ -2,12 +2,11 @@
 
 Reverse integer table
 
-Algo : reverse tab
-
-int []in;<br />
-int i;<br />
-<br />
+**Algo : reverse tab**
 <pre>
+int []in;
+int i;
+
 for(i = 0; i < in.length/2; i++)
 {
 	in[i] = in[in.length-i-1]+in[i];
